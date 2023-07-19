@@ -224,8 +224,6 @@ margin-right: 10px;
     text-align: right;
     margin-right: 10px;
     font-weight: 200;
-    
-
 }
 
 .image-container1{
@@ -241,4 +239,50 @@ margin-right: 10px;
     left: -120px; 
     border-radius: 8px;
   }
+  
+  .banner-button2{
+    margin:50px auto 0; 
+    height: 80px;
+    border: none;
+    cursor: all-scroll;
+  }
+  .knob{
+    border-radius: 50px;
+    margin-top: 150px;
+    color: #0B0223;
+    font-family: 'Work Sans';
+    font-size: 40px;
+    text-align: center;
+    border-color: #F948B2;
+    padding: 20 25;
+  }
+.ending{
+        margin:50px auto 0;
+        max-width: 1400px;
+        min-height: 600px;
+        background: #000f0f;
+        display: flex;
+        color: white; 
+        font: 1em sans-serif;
+        font-weight: 300;
+        text-align: center;
+      
+    }
+}
+.li{
+    display: flex;
+}
+.logo-container5 img{  
+width: 100px;
+object-fit: contain;
+margin-top: 50px;
+margin-left: 600px
+}
+.Facilities{
+    display: flex;
+    justify-content: space-between;
+    font: 1em sans-serif;
+    font-weight: 300;
+}
+
   
