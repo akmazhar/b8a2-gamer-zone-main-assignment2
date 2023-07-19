@@ -163,31 +163,82 @@ margin-right: 10px;
     text-align: right;
     margin-right: 10px;
 }
-
-.banner-container3{
+  .banner-container3{
     margin:50px auto 0;
     max-width: 1400px;
-    min-height: 600px;
+    height: 600px;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(247, 244, 244);
     }
-    .banner-title3{
-        text-align: center;
-        margin-left: 25opx;
-        font-family: 'Work Sans';
-        font-size: 48px;
-        font-weight: 700;
+.banner-title3{
+    
+    text-align: center;
+    margin-left: 25opx;
+    font-family: 'Work Sans';
+    font-size: 48px;
+    font-weight: 700;
     }        
 
-    .banner-title-description{
-        text-align: center;
-        font-family: 'Work Sans';
-        background-clip: text;
-        margin-top: 2px;
+.banner-title-description{
+    text-align: center;
+    font-family: 'Work Sans';
+    background-clip: text;
+    margin-top: 2px;
     }
-  .image-container{
+
+    .image-container{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
+
+.banner-img{
+    margin:50px 
+    max-width: 1400px;
+    min-margin: 50 auto 0
+}
+
+.banner-container4{
+    margin:50px auto 0;
+    max-width: 1400px;
+    height: 600px;
     display: flex;
-    justify-content: space-between;
+    background-color: white;
+    }
+
+.banner-title4{
+    font-family: 'Work Sans';
+    font-size: 48px;
+    text-align: right;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 130px;
+    justify-content: center;
+}
+.banner-title-description2{
+    color: #534C64;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 200;
+    
+
+}
+
+.image-container1{
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 350px;
+  }
+  
+  .corner-image {
+    position: absolute;
+    bottom: -120px; 
+    left: -120px; 
+    border-radius: 8px;
   }
   
