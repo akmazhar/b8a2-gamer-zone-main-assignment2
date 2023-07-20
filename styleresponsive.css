@@ -8,7 +8,7 @@
 }
 
 /* Mobile view */
-@media (max-width: 767px) {
+@media (max-width: 567px) {
   .nav-items-container {
     display: none; 
   }
@@ -25,7 +25,7 @@
 }
 
 /* Tablet view */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 567px) and (max-width: 992px) {
   .logo-container img {
     width: 80px; 
   }
@@ -42,7 +42,7 @@
 }
 
 /* Desktop view */
-@media (min-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1400px){
   .nav-container {
     justify-content: space-between; 
   }
